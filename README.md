@@ -15,7 +15,7 @@ The 22 or (27 with pooling layers, ca. 100 in complete) layer deep CNN was desig
 The receptive layer takes 224x224x3 data blocks which equals the data size of an three channel (RGB) 224x224 pixel image. The beginning layers are constructed after classical CNN architecture (see as an example AlexNet). These layers are used to strenghten loud/important features and structurize the raw data through the implementation of lateral inhibition.
 
 ### Auxiliary calssifiers
-These additional outputs are especially helpful in backpropagation. Later research shows, that the effect is minor (0.5%) and only one of them would have solved the problem of very discriminative features in the middle of the network. The architectural structure uses one average pooling layer, a convolutaional layer for the reduction of dimensionality, a fully connected layer with 1024 units, a 70% dropout layer and a linear layer with softmax activation.
+These additional outputs are especially helpful in backpropagation. Later research shows, that the effect is minor (0.5%) and only one of them would have solved the problem of very discriminative features in the middle of the network. The architectural structure uses one average pooling layer, a convolutaional layer for the adjustance of dimensionality, a fully connected layer with 1024 units, a 70% dropout layer and a linear layer with softmax activation.
 
 
 
