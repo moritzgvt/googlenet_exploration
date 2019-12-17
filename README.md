@@ -38,3 +38,16 @@ The GoogLeNet networks were trained with an asyncronous stochastic gradient desc
 ## ILSVRC 2014
 GoogLeNet won the ILSVRC in 2014 with an top-5 error rate of 6.67 % The team trained seven equal networks in paralell to perform ensemble prediction. 
 
+## Stats
+- ILSVRC 2014
+6.67 % top-5 error rate
+- 3 - 10x faster than similar performing networks without Inception architecture
+- up to 12x less parameters
+
+## Conclusion
+>“Significant quality gain at a modest increase of computational requirements compared with shallower and narrower architectures."
+
+>The approach shows that sparser networks are feasible – in application “as well as on applying the insights of the […] architecture to other domains.”
+
+### Source
+Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D., Vanhoucke, V., & Rabinovich, A. (2014). Going deeper with convolutions. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1-9.
